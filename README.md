@@ -1600,16 +1600,5 @@ https://static.r2coding.com/r2_static/pdf/c.pdf
 
 网站内容会持续保持更新，欢迎收藏品鉴！
 
-<footer style="text-align: center">
-    <p><img src="http://img.zimei.xyz/202201281131075.png"
-            alt="r2coding" class="medium-zoom-image"></p><span><a href="https://beian.miit.gov.cn/"
-            style="font-size:80%;color:#939393;" target="_blank">苏ICP备2021049515号-1</a></span><span> • </span><span><img
-            src="https://cdn.jsdelivr.net/gh/justacoder99/r2coding@master/img/beian.5m919tgd7vw0.png" height="15px"
-            width="15px" class="medium-zoom-image"><a
-            href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32030302000933"
-            style="font-size:80%;color:#939393;" target="_blank">苏公网安备 32030302000933号</a></span>
-    <p><!--Copyright © 2021 <span><a href="https://mp.weixin.qq.com/s/ePhaYezFblgt0NgbvtWqww"
-                style="font-size:80%;color:blue;" target="_blank">CodeSheep</a></span> , All rights reserved. -->Hosted By
-        <span><a href="https://www.aliyun.com/minisite/goods?taskPkg=1212cpz&amp;pkgSid=182176&amp;userCode=eso7wf2g"
-                style="font-size:80%;color:blue;" target="_blank">Aliyun ECS</a></span>.</p>
-</footer>
+
+
