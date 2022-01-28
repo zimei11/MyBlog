@@ -9,10 +9,6 @@
 <p align="center">
   <a href="https://github.com/rd2coding/Road2Coding" target="_blank"><img src="https://img.shields.io/badge/Github-r2coding-red.svg"></a>
   <a href="https://gitee.com/rd2coding/Road2Coding" target="_blank"><img src="https://img.shields.io/badge/Gitee-r2coding-blue.svg"></a>
-  <a href="https://space.bilibili.com/384068749" target="_blank"><img src="https://img.shields.io/badge/bilibili-哔哩哔哩-critical"></a>
-  <a href="https://mp.weixin.qq.com/s/ePhaYezFblgt0NgbvtWqww" target="_blank">
-    <img src="https://img.shields.io/badge/微信联系作者-WeChat-green.svg" alt="微信联系">
-  </a>
 </p>
 
 ---
@@ -20,7 +16,7 @@
 ---
 
 > [!TIP]
->  本站取名 **r2coding**，即 **Road To Coding**，意为「编程自学之路」，是自学编程以来所用资源和分享内容的大聚合。
+>  本网站模板参考 [Road 2 Coding (r2coding.com)](https://www.r2coding.com/#/)，原网站即 **Road To Coding**，意为「编程自学之路」，是自学编程以来所用资源和分享内容的大聚合。
 >  
 >  旨在为编程自学者提供一系列：
 >  - **清晰的编程自学路线**
@@ -1575,14 +1571,13 @@ https://static.r2coding.com/r2_static/pdf/c.pdf
 ## 微信联系
 
 <p align="left">
-    <a href="https://mp.weixin.qq.com/s/ePhaYezFblgt0NgbvtWqww" target="_blank">
-        <img src="https://cdn.jsdelivr.net/gh/justacoder99/r2coding@master/img/qrcode_for_gh_1537917051d0_258.nd3fymuhyts.jpeg" width=""/>
+    <a href="https://mp.weixin.qq.com/s/mIw95oCmWvQ4DtPSJ18hjA" target="_blank">
+        <img src="http://img.zimei.xyz/202201281620194.jpg" width=""/>
     </a>
 </p>
 
-
 ---
-# **本站开源地址**
+# **原网站开源地址**
 ---
 
 ## GitHub开源地址
@@ -1595,6 +1590,12 @@ https://static.r2coding.com/r2_static/pdf/c.pdf
 
 
 ---
+# 本网站开源地址
+
+## GitHub开源地址
+
+- https://github.com/zimei11/MyBlog **欢迎Star支持**
+
 # 持续更新中...
 
 网站内容会持续保持更新，欢迎收藏品鉴！
