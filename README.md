@@ -30,6 +30,17 @@
 
 ---
 # **本站内容地图**
+
+```c++
+#include<iostream>
+using namespace std;
+int main(){
+    return 0;
+}
+```
+
+
+
 ---
 
 ![](https://cdn.jsdelivr.net/gh/justacoder99/r2coding@master/img/contentmap.3sdmma4od740.png)
