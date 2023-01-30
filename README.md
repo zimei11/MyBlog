@@ -1,8 +1,9 @@
 <p align="center">
-    <a href="https://www.zimei.xyz/" target="_blank">
-        <img src="http://img.zimei.xyz/202201282100719.gif" width=""/>
+    <a href="https://www.zimei.fun/" target="_blank">
+        <img src="https://img.zimei.fun/202201282100719.gif" width=""/>
     </a>
 </p>
+
 
 
 

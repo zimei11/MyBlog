@@ -2,100 +2,91 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>子美的个人主页</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="keywords"
-    content="前端开发,Java后端开发,嵌入式开发,大数据开发,数据结构,算法题,leetcode,开源,代码,C语言,计算机网络,操作系统,设计模式,编译原理,计算机组成原理,C++,Spring,Spring Boot,Spring Cloud,Redis,MongoDB,Linux,JVM,IDEA,Docker,Git,SVN,Node,Python,MySQL,Tomcat,Nginx,Kubernetes,Elasticsearch,Kafka,程序员,分布式,微服务,大数据,开发者,编程,">
-  <meta name="description"
-    content="本站内容主要包含但不限于：Java后端、前端开发、嵌入式开发、大数据开发、数据结构、算法题、leetcode、计算机网络、操作系统、设计模式、编译原理、计算机组成原理、C语言、C++、Spring Boot、Spring Cloud、Git、SVN、Linux、Node、IDEA、Python、MySQL、Redis、Tomcat、Nginx、Kubernetes、Elasticsearch、Kafka、微服务分布式、高可用架构、中间件、数据库、缓存、消息队列、系统监控等知识分享。">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="icon" href="https://img.zimei.fun/favicon.ico">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/justacoder99/r2coding@master/css/vue.css">
-  <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/justacoder99/r2coding@master/css/style.css">
-  -->
-  <script>
-    var _hmt = _hmt || [];
-    (function () {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?1084c6133cb35e15fffea07710a0d662";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-  </script>
-
+    <title>子美知识库</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- 添加keywords与viewport -->
+    <meta name="keywords"
+          content="前端开发,Java后端开发,数据结构,算法题,开源,代码,四大件,设计模式,Spring,Spring Boot,Spring Cloud,Redis,Linux,IDEA,Docker,Git,Python,MySQL,Tomcat,Nginx,Kafka,程序员,分布式,微服务,大数据,开发者,编程,考研">
+    <meta name="description"
+          content="计算机科学与技术专业相关的知识库网站，包含但不限于：考研信息梳理、项目开发学习、常用工具分享、日常经验帖">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="icon" href="https://img.zimei.fun/favicon.ico">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
 </head>
 
 <body>
-  <div id="app">
+<div id="app">
     <strong>正在加载中……</strong><br>
     <p style="font-size:20px">初次加载可能较慢，请耐心等待<br>若长时间无变化请尝试刷新网页</p>
-  </div>
-  <script>
+</div>
+<script>
     window.$docsify = {
-      name: 'myblog',
-      repo: 'https://github.com/zimei11/MyBlog',
-      loadNavbar: true,
-      coverpage: true,
-      onlyCover: false,
-      auto2top: true,
-      logo: 'http://img.zimei.fun/202201281508363.png',
-      nameLink: 'https://www.zimei.fun/',
-      search: {
-        paths: 'auto',
-        placeholder: '搜索',
-        noData: '找不到结果',
-        depth: 3,
-      },
-      'flexible-alerts': {
-        style: 'flat'
-      },
-
-      /*darkMode: {
-        light: {
-          toggleBtnBg: '#42b983'
-        }
-      },*/
-
-      plugins: [
-        function (hook) {
-          var footer = [
-            '<hr/>',
-            '<footer style="text-align: center">',
-            '<p>',
-            '<img src="http://img.zimei.fun/202201281508363.png" alt="zimei" >',
-            '</p>',
-            '<span><a href="https://beian.miit.gov.cn/" style="font-size:80%;color:#939393;" target="_blank">苏ICP备2021049515号-1</a></span><span>  •  </span><span><img src="https://img.zimei.fun/%E5%A4%87%E6%A1%88%E5%9B%BE%E6%A0%87.png" height="15px" width="15px" /><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32030302000933" style="font-size:80%;color:#939393;" target="_blank">苏公网安备 32030302000933号</a></span>',
-            '<p>',
-            'Hosted By <span><a href="https://www.aliyun.com/minisite/goods?taskPkg=1212cpz&pkgSid=182176&userCode=eso7wf2g" style="font-size:80%;color:blue;" target="_blank">Aliyun ECS</a></span>.',
-            '</p>',
-            '</footer>'
-          ].join('');
-          hook.afterEach(function (html) {
-            var isReadme = window.location.href.indexOf("README");
-            if (isReadme === -1) {
-              // return header + html + footer;
-              return html + footer;
-            } else {
-              return html + footer;
+        name: '子美',
+        repo: 'https://github.com/zimei11/MyBlog',
+        loadNavbar: true,
+        coverpage: true,
+        onlyCover: false,
+        auto2top: true,
+        themeColor: '#468cd4',
+        nameLink: '/',
+        // 搜索框
+        search: {
+            paths: 'auto',
+            placeholder: '搜索',
+            noData: '找不到结果',
+            depth: 3,
+        },
+        //  flexible-alerts 插件将块引用转换为漂亮的警报
+        'flexible-alerts': {
+            style: 'callout'
+        },
+        // 页脚
+        plugins: [
+            function (hook) {
+                var footer = [
+                    '<hr/>',
+                    '<footer style="text-align: center">',
+                    '<p>',
+                    '<img src="http://img.zimei.fun/202201281508363.png" alt="zimei" >',
+                    '</p>',
+                    '<span><a href="https://beian.miit.gov.cn/" style="font-size:80%;color:#939393;" target="_blank">苏ICP备2021049515号-1</a></span><span>  •  </span><span><img src="https://img.zimei.fun/%E5%A4%87%E6%A1%88%E5%9B%BE%E6%A0%87.png" height="15px" width="15px" /><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32030302000933" style="font-size:80%;color:#939393;" target="_blank">苏公网安备 32030302000933号</a></span>',
+                    '<p>',
+                    'Hosted By <span><a href="https://www.aliyun.com/minisite/goods?taskPkg=1212cpz&pkgSid=182176&userCode=eso7wf2g" style="font-size:80%;color:blue;" target="_blank">Aliyun ECS</a></span>.',
+                    '</p>',
+                    '</footer>'
+                ].join('');
+                hook.afterEach(function (html) {
+                    var isReadme = window.location.href.indexOf("README");
+                    if (isReadme === -1) {
+                        // return header + html + footer;
+                        return html + footer;
+                    } else {
+                        return html + footer;
+                    }
+                });
             }
-          });
-        }
-      ]
-
+        ]
     }
-  </script>
-
-  <script src="https://cdn.jsdelivr.net/gh/justacoder99/r2coding@master/js/docsify@4.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/justacoder99/r2coding@master/js/docsify-example-panels.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/justacoder99/r2coding@master/js/docsify-tabs@1.js"></script>
-  <script
-    src="https://cdn.jsdelivr.net/gh/justacoder99/r2coding@master/js/docsify-plugin-flexible-alerts.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/justacoder99/r2coding@master/js/pdfobject.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/justacoder99/r2coding@master/js/docsify-pdf-embed.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/justacoder99/r2coding@master/js/docsify-themeable.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/justacoder99/r2coding@master/js/zoom-image.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+</script>
+<!-- 初始化 -->
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+<!-- docsify-example-panels (latest) Markdown代码识别转换 -->
+<script src="https://cdn.jsdelivr.net/npm/docsify-example-panels"></script>
+<!-- docsify-tabs (latest v1.x.x) Markdown的选项卡式内容-->
+<script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+<!-- flexible-alerts 插件将块引用转换为漂亮的警报 -->
+<script
+        src="https://cdn.jsdelivr.net/gh/justacoder99/r2coding@master/js/docsify-plugin-flexible-alerts.min.js"></script>
+<!-- docsify-pdf-embed 一个docsify插件，用于在任何页面上嵌入PDF -->
+<script src="https://cdn.jsdelivr.net/gh/justacoder99/r2coding@master/js/pdfobject.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/justacoder99/r2coding@master/js/docsify-pdf-embed.js"></script>
+<!-- 文档化主题 -->
+<script src="https://cdn.jsdelivr.net/gh/justacoder99/r2coding@master/js/docsify-themeable.min.js"></script>
+<!-- 官方文档的缩放图片 -->
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+<!-- 官方文档的搜索 -->
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 </body>
 
 </html>
